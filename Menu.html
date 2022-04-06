@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Menu.html">MENÙ</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Menù</h1>
+    </section>
+
+<!-----------MENU----------->
+
+<section class="menu">
+    <h1>Menù We Serve</h1>
+    <p>Aromatic and Delicious taste of Philippine Coffee.</p>
+
+    <div class="row">
+        <div class="menu-col">
+            <img src="Images/hot.jpg">
+            <h3>Hot Beverages</h3>
+            <p>Made from 100% locally produced coffee bean. Rich in antioxidants — including polyphenols 
+            and hydrocinnamic acids — that may improve health and reduce your risk of several diseases.
+            </p>
+            <a href="hot beverages.html">Explore Now!</a>
+        </div>
+        <div class="menu-col">
+            <img src="Images/back.jpg">
+            <h3>Pastries</h3>
+            <p>Baked from the heart. Serving one of the most delicious, light, airy and fatty dessert in the
+            Philippine. In AromaBeans we proudly use a fresh and homemade ingridients rich in flavor and scent.
+            </p>
+            <a href="pastries.html">Explore Now!</a>
+        </div>
+        <div class="menu-col">
+            <img src="Images/colf.jpeg">
+            <h3>Cold Beverages</h3>
+            <p>Finest Generation Z drinks, made from 100% freshly picked coffee beans from the Phlippines. Low fats, but rich in flavor.
+            Serving with imported chocolates that taste bittersweet.
+            </p>
+            <a href="cold beverages.html">Explore Now!</a>
+        </div>
+    </div>
+
+</section>
+
+<!----FACILITIES-->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>We Care for your convinience.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Images/outside.jpeg">
+            <h3>Aesthetic Setup</h3>
+            <p>Calming and Relaxing</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/kitchen.jpg">
+            <h3>Cleanest Kitchen</h3>
+            <p>Safe and Hygienic</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/counter.jpg">
+            <h3>Minimalist Counter</h3>
+            <p>Clean and Customer Friendly</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-----------FOOTER----------->
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>In AromaBeans We served, You take Break.</p>
+    <div class="icon">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by AromaBeans Management </p>
+</section>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
+</body>
+</html>

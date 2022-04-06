@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Menu.html">MENÙ</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Menù</h1>
+    </section>
+
+<!---------------PRODUCTS---------------->
+<div class="small-container">
+    <h2>Pastries</h2>
+    <div class="row">
+        <div class="col4">
+            <img src="Images/cros.jpg">
+            <h4>Croissants</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>₱ 90.00</p>
+        </div>
+        <div class="col4">
+            <img src="Images/CD.jpg">
+            <h4>Cheese Danish</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>₱ 99.75</p>
+        </div>
+        <div class="col4">
+            <img src="Images/macaroons.jpg">
+            <h4>Macaroons</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>₱ 83.75</p>
+        </div>
+        <div class="col4">
+            <img src="Images/ecll.jpg">
+            <h4>Éclairs</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>₱ 100.00</p>
+        </div>
+    </div>
+</div>
+
+<div class="small-container">
+    <div class="row">
+        <div class="col4">
+            <img src="Images/homemade-toaster-strudels-srgb..jpg">
+            <h4>Strudels</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>₱ 90.75</p>
+        </div>
+        <div class="col4">
+            <img src="Images/cannoli-small-8-scaled.jpg">
+            <h4>Cannoli</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>₱ 82.75.00</p>
+        </div>
+        <div class="col4">
+            <img src="Images/easy-salted-soft-pretzels.jpg">
+            <h4>Pretzels</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>₱ 62.00</p>
+        </div>
+        <div class="col4">
+            <img src="Images/fresh-fruit-cream-tarts-R090587.jpg">
+            <h4>Fresh Fruit Tarts</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>₱ 129.75</p>
+        </div>
+    </div>
+</div>
+
+<div class="small-container">
+    <div class="row">
+        <div class="col4">
+            <img src="Images/donuts.jpg">
+            <h4>Donuts</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>₱ 90.75</p>
+        </div>
+        <div class="col4">
+            <img src="Images/chocolate_berry_vanilla_charlotte_cake-s.jpg">
+            <h4>Charlotte Cake</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>₱ 85.75.00</p>
+        </div>
+        <div class="col4">
+            <img src="Images/RaspberryMill-08801@webSQ.jpg">
+            <h4>Mille-feuille</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>₱ 199.75</p>
+        </div>
+        <div class="col4">
+            <img src="Images/57bd44b818e1b28590dc50c94a91542d.jpg">
+            <h4>Paris–Brest</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>₱ 89.75</p>
+        </div>
+    </div>
+</div>
+
+<div class="small-container">
+    <div class="row">
+        <div class="col4">
+            <img src="Images/Cream-Puffs-with-Vanilla-Ice-Cream-and-Chocolate-Sauce.jpg">
+            <h4>Profiteroles</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>₱ 90.75</p>
+        </div>
+        <div class="col4">
+            <img src="Images/Chocolate-Peanut-Butter-Caramel-Cupcakes.jpg">
+            <h4>Chocolate Cup Cake</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>₱ 85.75.00</p>
+        </div>
+        <div class="col4">
+            <img src="Images/Apple-Pie-2.jpg">
+            <h4>Apple Pie</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>₱ 199.75</p>
+        </div>
+        <div class="col4">
+            <img src="Images/Blueberry-Cheesecake4.jpg">
+            <h4>Blueberry Cheesecake</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>₱ 89.75</p>
+        </div>
+    </div>
+</div>
+
+<div class="small-container">
+    <div class="row">
+        <div class="col4">
+            <img src="Images/waffle.jpg">
+            <h4>Waffle</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>₱ 90.75</p>
+        </div>
+        <div class="col4">
+            <img src="Images/panpan.jpg">
+            <h4>Pancakes</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>₱ 82.75.00</p>
+        </div>
+        <div class="col4">
+            <img src="Images/french.jpg">
+            <h4>French Toast</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>₱ 62.00</p>
+        </div>
+        <div class="col4">
+            <img src="Images/exotica.jpg">
+            <h4>Exotica</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>₱ 129.75</p>
+        </div>
+    </div>
+</div>
+
+<!---------BRAND BEV------------>
+
+<div class="bran">
+    <div class="small-container">
+        <div class="row">
+            <div class="col5">
+                <a href="hot beverages.html"><img src="Images/hot.png"></a>
+            </div>
+            <div class="col5">
+                <a href="pastries.html"><img src="Images/1234.png"></a>
+            </div>
+            <div class="col5">
+                <a href="cold beverages.html"><img src="Images/COLD.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------FOOTER----------->
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>In AromaBeans We served, You take Break.</p>
+    <div class="icon">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by AromaBeans Management </p>
+</section>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
+</body>
+</html>

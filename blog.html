@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Menu.html">MENÙ</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Employees and Other Services</h1>
+    </section>
+
+
+<!-----------BLOG PAGE CONTENT----------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="Images/Workers-Seasonal.jpg">
+            <h2>Our Employees and Other Services</h2>
+            <p>Everyone brings different skills and abilities to work.
+            AromaBeans Employee has loyalty, hard work ethic, humor, flexibility, 
+            ambition, excellent written communication, excellent verbal 
+            communication, creativity, tech-savvy, thinking outside of 
+            the box, strong interpersonal skills, persuasiveness and 
+            industry-specific skills and knowledge. </p>
+            <br>
+            <p>
+            In AromaBeans we also have the best managers who place employees in 
+            positions in which they can best use their strengths and build on them. 
+            We revise job descriptions, switch employees' positions, add or change 
+            responsibilities, and do what we need to in order to place 
+            employees in positions where they can succeed and use their 
+            skills. Managers at AromaBeans focuses on the positives and how an employee 
+            can build on each unique strengths. Here in AromaBeans, we hire 
+            employees that can attain your expectation and serve you with relaxation.
+            </p>
+            <br>
+            <h3>We Also Offer:</h3>
+            <p>
+                <ul>
+                    <li>Made to Order Cake</li>
+                    <li>Own Recipe Beverages</li>
+                    <li>Meeting Cater</li>
+                    <li>Delivery</li>
+                </ul>
+            </p>
+
+            <div class="comment-box">
+                <h3>Leave A Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Number of Employee</h3>
+            <div>
+                <span>Managers</span>
+                <span>58</span>
+            </div>
+            <div>
+                <span>Barista</span>
+                <span>163</span>
+            </div>
+            <div>
+                <span>Servers</span>
+                <span>258</span>
+            </div>
+            <div>
+                <span>Utilities</span>
+                <span>117</span>
+            </div>
+            <div>
+                <span>Drivers</span>
+                <span>95</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-----------FOOTER----------->
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>In AromaBeans We served, You take Break.</p>
+    <div class="icon">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by AromaBeans Management </p>
+</section>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
+</body>
+</html>
